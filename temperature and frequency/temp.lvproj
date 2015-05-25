@@ -11,28 +11,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Read only temp.vi" Type="VI" URL="../Read only temp.vi"/>
+		<Item Name="Read only temperature.vi" Type="VI" URL="../Read only temperature.vi"/>
 		<Item Name="Read Single.vi" Type="VI" URL="../Read Single.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name=".NET Object To Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object To Variant.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="c2.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c2.vi"/>
-				<Item Name="c3.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c3.vi"/>
-				<Item Name="c4.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c4.vi"/>
-				<Item Name="c5.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c5.vi"/>
-				<Item Name="c6.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c6.vi"/>
-				<Item Name="c7.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c7.vi"/>
-				<Item Name="c8.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c8.vi"/>
-				<Item Name="c9.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c9.vi"/>
-				<Item Name="c10.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c10.vi"/>
-				<Item Name="c11.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c11.vi"/>
-				<Item Name="c12.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c12.vi"/>
-				<Item Name="c13.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/c13.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
@@ -56,7 +43,6 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="NameMap.ctl" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/IVCommon.llb/NameMap.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -64,34 +50,23 @@
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="ParameterClass.ctl" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/IVCommon.llb/ParameterClass.ctl"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
-				<Item Name="RuntimeError.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/IVCommon.llb/RuntimeError.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subInstrumentNode.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/subInstrumentNode.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="To .NET Object.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/To .NET Object.vi"/>
-				<Item Name="toString.vi" Type="VI" URL="/&lt;vilib&gt;/Agilent/CommandExpert/InstrumentNodeSource.llb/toString.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Agilent.CommandExpert.Addons.LabVIEW" Type="Document" URL="Agilent.CommandExpert.Addons.LabVIEW">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
 			<Item Name="Read only temp" Type="EXE">
@@ -121,7 +96,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{DA0C971A-2417-4523-8F9E-C1F345075A37}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Read only temp.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Read only temperature.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -160,7 +135,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{DA0C971A-2417-4523-8F9E-C1F345075A37}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Read only temp.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/Read only temperature.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
