@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sequenceprocedure xsi:schemaLocation="http://tempuri.org/SequenceProcedureSchema.xsd" procedurename="Untitled" schemaVersion="7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/SequenceProcedureSchema.xsd">
+	<parameters>
+		<localvariables />
+		<inputparameters />
+		<outputparameters />
+	</parameters>
+	<actions>
+		<connect configuration="5061B" address="GPIB0::17::INSTR" commandSet="d35f0761-41be-45d1-8b0d-025a94ebd248" source="SCPI" commandSetDesc="E5061 ENA Series Network Analyzers / A.02.00" synopsis="" />
+		<do configuration="5061B" hierarchy="SCPI" path="CALCulate:SELected:MARKer:FUNCtion:EXECute" syntax="0">
+			<inputs>
+				<input />
+				<input>
+					<scalartype basetype="UInt32" />
+					<value>1</value>
+				</input>
+			</inputs>
+			<outputs />
+		</do>
+		<do configuration="5061B" hierarchy="SCPI" path="CALCulate:SELected:MARKer:FUNCtion:TYPE" syntax="0">
+			<inputs>
+				<input />
+				<input />
+				<input>
+					<enumtype basetype="String" />
+					<value>MINimum</value>
+				</input>
+			</inputs>
+			<outputs />
+		</do>
+		<do configuration="5061B" hierarchy="SCPI" path="CALCulate:SELected:MARKer:Y" syntax="0">
+			<inputs>
+				<input />
+				<input>
+					<scalartype basetype="UInt32" />
+					<value>1</value>
+				</input>
+			</inputs>
+			<outputs>
+				<output />
+				<output />
+			</outputs>
+		</do>
+		<do configuration="5061B" hierarchy="SCPI" path="CALCulate:SELected:MARKer:X" syntax="1">
+			<inputs>
+				<input />
+				<input>
+					<scalartype basetype="UInt32" />
+					<value>1</value>
+				</input>
+			</inputs>
+			<outputs>
+				<output />
+			</outputs>
+		</do>
+	</actions>
+</sequenceprocedure>
